@@ -53,7 +53,7 @@ header{
     opacity: 1;
 }
 .goods-wrapper{
-    background-image: url(/img/goods-background.jpg);
+    background-image: url(https://github.com/yuuki106/azuki_goods.github.io/blob/main/goods-background.jpg?raw=true);
     height: 2930px;
     background-size: contain;
     background-attachment: fixed;
