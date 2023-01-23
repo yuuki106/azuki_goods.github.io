@@ -1,1 +1,128 @@
+@media screen and (max-width:480px){
+    header{
+        width: 100%;
+    }
+    .header-left img{
+        margin-left: 10px;
+    }
 
+    .header-left h3{
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+
+    .iphone-only{
+        background-image: url(/img/goods_iphone_only.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 220px;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .swich-wrapper{
+        display: none;
+    }
+
+
+    .goods-wrapper{
+        width: 100%;
+    }
+    .goods-wrapper::before{
+        width: 100%;
+        background-size: 330%;
+    }
+    .goods-list{
+        width: 100%;
+    }
+    .goods-list h1{
+        display: none;
+    }
+    .goods-list h2{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .goods-list h4{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .goods-list p{
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+    .goods-list img{
+        padding-bottom: 20px;
+    }
+    .goods1-img{
+        display: flex;
+        justify-content: center;
+    }
+    .goods1-img img{
+        width: 180px;
+    }
+    .goods2-img{
+        display: flex;
+        justify-content: center;
+    }
+    .goods2-img img{
+        width:130px;
+    }
+    .goods3-img{
+        display: flex;
+        justify-content: center;
+    }
+    .goods3-img img{
+        width: 160px;
+    }
+
+    .goods4-img{
+        display: flex;
+        justify-content: center;
+    }
+    .goods4-img img{
+        width: 110px;
+    }
+    .goods5-img{
+        display: flex;
+        justify-content: center;
+    }
+    .goods5-img img{
+        width: 180px;
+    }
+
+    .iphone-swich{
+        display: block;
+        background-color: black;
+        width: 100%;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    .iphone-switchlist{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        border: 3px solid black;
+    }
+    .iphone-switchlist img{
+        width:100%;
+    }
+    .iphone-switchlist li{
+        width: 33.33%;
+        height: 72px;
+        border: 1px solid black;
+        list-style: none;
+    }
+
+
+
+
+
+
+
+    footer{
+        width: 100%;
+    }
+}
