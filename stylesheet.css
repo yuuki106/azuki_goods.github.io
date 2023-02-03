@@ -8,41 +8,35 @@
     display: none;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
 
-}
 header{
     background-color: black;
-    height: 70px;
-    width: 1440px;
-    
-}
-.container{
+    height: 80px;
     width: 1440px;
     
 }
 .header-left img{
-    width: 120px;
     float: left;
+    margin-top: 6px;
+    margin-left: 20px;
 }
 .header-left h3{
     color: white;
-    padding-top: 21px;
     float: left;
+    padding-top: 28px;
+    padding-left: 20px;
 }
 
 .swich-wrapper{
     background-color: grey;
-    height: 70px;
     text-align: center;
     width: 1440px;
+    border-bottom: 10px solid black;
+   
 }
 .swich-wrapper a{
-    padding: 0 75px;
+    padding: 20px 75px;
     background-color: white;
-    line-height: 70px;
     display: inline-block;
     color: black;
     opacity: 0.6;
@@ -54,25 +48,28 @@ header{
 .swich-wrapper a:hover{
     opacity: 1;
 }
-.goods-wrapper::before {
+.goods-wrapper{
+    width: 1440px;
+}
+
+.goods-wrapper::after {
     content:"";
     display:block;
     position:fixed;
-    top:0;
+    top:30px;
     left:0;
     z-index:-1;
     width:1440px;
     height:100%;
-    background-repeat:no-repeat;
-    background-position:50% 100%;
-    background-image:url(https://github.com/yuuki106/azuki_goods.github.io/blob/main/goods-background.jpg?raw=true);
-    background-size:cover;
-    }
+    background-image:url(/img/goods_back.jpg);
+    background-size:100%;
+}
 .goods-list{
     background-color:rgba(0, 0, 0, 0.745);
     width: 1200px;
     height: 100%;
     margin: auto;
+    text-align: center;
 }
 .goods-list h1{
     color: white;
@@ -95,7 +92,7 @@ header{
 }
 .goods-list img{
     margin-right: 5px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .goods-list p{
     text-align: center;
@@ -105,31 +102,26 @@ header{
 
 }
 .goods1{
-    text-align: center;
     background-color:rgba(255, 255, 255, 0.791);
     color: black;
 }
 
 .goods2{
-    text-align: center;
     color: white;
 }
 
 .goods3 {
-    text-align: center;
     background-color:rgba(255, 255, 255, 0.791);
     color: black;
 }
 
 
 .goods4 {
-    text-align: center;
     color: white;
 }
 
 
 .goods5{
-    text-align: center;
     background-color:rgba(255, 255, 255, 0.791);
     color: black;
 }
